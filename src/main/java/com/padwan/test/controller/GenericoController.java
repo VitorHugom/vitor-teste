@@ -1,13 +1,13 @@
 package com.padwan.test.controller;
 
-import com.padwan.test.dto.GenericoDTO;
-import com.padwan.test.service.GenericoService;
-import com.padwan.test.service.VaderService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+        import com.padwan.test.dto.GenericoDTO;
+        import com.padwan.test.service.GenericoService;
+        import com.padwan.test.service.VaderService;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.http.HttpStatus;
+        import org.springframework.http.MediaType;
+        import org.springframework.http.ResponseEntity;
+        import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/generic-post")
